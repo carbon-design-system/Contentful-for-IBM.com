@@ -1,0 +1,2091 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "journeySystemDocumentation",
+        "type": "ContentType",
+        "createdAt": "2018-09-19T20:48:41.545Z",
+        "updatedAt": "2018-09-20T14:36:50.835Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2018-09-20T14:36:50.835Z",
+        "firstPublishedAt": "2018-09-19T20:48:41.953Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Journey System Documentation",
+      "description": "Content intended to help Journey System adopters utilize the Journey System, its tools, and its methods.",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "order",
+          "name": "Order",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "summary",
+          "name": "Summary",
+          "type": "Text",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "introductoryMedia",
+          "name": "Introductory Media",
+          "type": "Link",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "body",
+          "name": "Body",
+          "type": "Text",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "relatedDocumentation",
+          "name": "Related documentation",
+          "type": "Array",
+          "localized": true,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "rgmo2fwlfqdf",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2018-09-19T20:48:42.157Z",
+        "createdBy": {
+          "sys": {
+            "id": "0wPDDbjTpJrxS01IAD2d4e",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2018-09-20T14:36:51.705Z",
+        "updatedBy": {
+          "sys": {
+            "id": "0wPDDbjTpJrxS01IAD2d4e",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "journeySystemDocumentation",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "order",
+          "widgetId": "numberEditor"
+        },
+        {
+          "fieldId": "summary",
+          "widgetId": "markdown"
+        },
+        {
+          "fieldId": "introductoryMedia",
+          "widgetId": "assetLinkEditor"
+        },
+        {
+          "fieldId": "body",
+          "widgetId": "markdown"
+        },
+        {
+          "fieldId": "relatedDocumentation",
+          "settings": {
+            "bulkEditing": false
+          },
+          "widgetId": "entryLinksEditor"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "4AEA1fBpXqCICOgYw6UMiU",
+        "type": "Entry",
+        "createdAt": "2018-09-19T20:48:49.916Z",
+        "updatedAt": "2018-10-12T19:13:29.381Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 930,
+        "publishedAt": "2018-10-12T19:13:29.381Z",
+        "firstPublishedAt": "2018-09-20T15:54:03.429Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 8,
+        "version": 931,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Managing a user need"
+        },
+        "summary": {
+          "en-US": "For each competitor (including IBM) you can create user journeys to capture the experience your users have while fulfilling a need."
+        },
+        "body": {
+          "en-US": "## Identify competitors\nIdentifying your competition begins with a deep understanding the user need you truly intend to fulfill.\n\nConsider the following example: you want to start a coffee shop, and you’re trying to scope out the competition. Your list of competitors will depend on the need you’re trying to fulfill.\n\nIf your ambitions are to produce the best coffee in the city, your competitor list might look something like this:\n\n- Starbucks\n- Keurig\n- Your local artisanal coffee shop\n\nBut on the other hand, if your ambitions are to create an environment conducive to positive informal social interactions (meetings, first dates, etc.), your competitor list might look something like this:\n\n- Happy hour\n- Cocktail bar\n- Afternoon tea\n\nIf you’re competing on the merit of your coffee, you have one path to win: make better coffee. From day one you’ll worry about the proliferation of new home coffee systems, new brewing methods and techniques, and shifts in people’s preferences from coffee to tea.\n\nOn the other hand, if you’re competing on the merit of a social environment, you’re going to win on the merit of the space, and how well it facilitates “hanging out.” You’ll want to watch changes in social norms and how people connect are going to inform your decisions more than others — for example, online dating preferences, or whether or not it’s socially acceptable to go up and say hello to a complete stranger.\n\n## Types of competition\n\n- Direct competitors: Who else is showing up to the same deals? Who else shows up in keyword searches?\n- Indirect competitors: Who is fulfilling the user need in different ways? Who fulfills an adjacent need in the same market?\n- Potential entrants: Who is using the same functionality to fulfill a different need? Who fulfills a similar need, but in another market?\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "1LB9aFWpoooUE0QQAca0Mg",
+        "type": "Entry",
+        "createdAt": "2018-09-19T20:58:29.652Z",
+        "updatedAt": "2018-10-26T22:56:08.574Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 469,
+        "publishedAt": "2018-10-26T22:56:08.574Z",
+        "firstPublishedAt": "2018-10-08T15:40:43.057Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 11,
+        "version": 470,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Capturing a user journey"
+        },
+        "summary": {
+          "en-US": "A journey is the sum of all of steps a user completes in order to fulfill their needs."
+        },
+        "body": {
+          "en-US": "## From end to end\nJourneys begin the moment someone makes contact with us. As the relationship unfolds, Expectations change and their level of commitment to us grows.\n\nGood experiences turn users into loyal advocates, eager to deeper their emotional and financial bond with IBM. Bad experiences turn them into detractors, driving their peers into the arms of our competitors.\n\nThese journeys happen, whether we design for them or not. But when design the journey with care, each step along the journey is a chance to exceed expectations and strengthen our bond with the people we serve.\n\n## Decomposing a journey\n\nJourneys are made of discrete __phases__, and phases are made of discrete __steps__. Identifying the phases and steps in a journey helps pinpoint the source of pain and frame a more effective design prompt to improve the right part of the journey.\n\nHere, you can create a journey map (sometimes known as a user journey or customer journey map). A journey map is a visual illustration of this journey, from the moment they discover a solution provider, through to a user's achieving success and deep commitment."
+        },
+        "relatedDocumentation": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1VTRe2r7ne8iWIMaciYEsG"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1ySeqBcMGky0QGqQg6I4Uo"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5TWxDc8YMg8Scqm86WSySa"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "s5dta7GEHmaqEAwcqKG44"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "1VTRe2r7ne8iWIMaciYEsG",
+        "type": "Entry",
+        "createdAt": "2018-09-19T21:02:11.248Z",
+        "updatedAt": "2018-10-12T20:09:18.659Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 504,
+        "publishedAt": "2018-10-12T20:09:18.659Z",
+        "firstPublishedAt": "2018-10-08T15:41:09.957Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 505,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Capturing phases"
+        },
+        "summary": {
+          "en-US": "A phase is a milestone on the journey that determines a user's level of commitment. Cumulatively, completing these phases increase a user's emotional and financial commitment to the journey."
+        },
+        "body": {
+          "en-US": "## Naming phases\n\nPhases are characterized by higher-level user intentions. Each phase involves one or more steps.\n\nChoose descriptive names for each phase. Descriptive names communicate the flow and sources of pains more effectively to consumers of your journey analysis. Descriptive names also help you and your team maintain the journey over time and validate it with other evaluators.\n\nEach phase name should:\n\n- Begin with a verb.\n- Identify what the user is accomplishing in the phase.\n- Describe the full scope of what is being accomplished – erring on the side of being too verbose is better than erring on the side of being too terse.\n\nExamples of descriptive phase names:\n\n- Identify a candidate solution to the need\n- Build and validate a proof of concept\n- Analyze application performance against business objectives\n\nIdentifying the right granularity for a phase is an art, not a science. As such, these are guidelines, not rules. Whenever possible, improve your decomposition by getting feedback from other evaluators."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "1ySeqBcMGky0QGqQg6I4Uo",
+        "type": "Entry",
+        "createdAt": "2018-09-19T21:05:53.025Z",
+        "updatedAt": "2018-10-26T23:01:33.943Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 468,
+        "publishedAt": "2018-10-26T23:01:33.943Z",
+        "firstPublishedAt": "2018-10-08T15:40:56.671Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 10,
+        "version": 469,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Capturing steps"
+        },
+        "summary": {
+          "en-US": "A step is a canonical requirement or user outcome that must be achieved to complete the journey. A step provides a way to understand the progression of a journey in a way that is meaningful to users.\n"
+        },
+        "body": {
+          "en-US": "## Naming steps\nChoose descriptive names for each step. Descriptive names communicate the speciffic outcome a user wants to achieve, and help your team maintain a journey's health over a longer period of time.\n\nEach step name should:\n\n- Begin with a verb.\n- Identify what the user is accomplishing in the step.\n- Describe the full scope of what is being accomplished – erring on the side of being too verbose is better than erring on the side of being too terse.\n\nExamples of descriptive step names:\n\n- Sign up for new account\n- Deploy application\n- Pay for rated usage\n\nIdentifying the right granularity for a step is an art, not a science. As such, these are guidelines, not rules. Whenever possible, improve your decomposition by getting feedback from other evaluators. \n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "5TWxDc8YMg8Scqm86WSySa",
+        "type": "Entry",
+        "createdAt": "2018-09-19T21:12:46.692Z",
+        "updatedAt": "2018-10-12T17:38:48.334Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 682,
+        "publishedAt": "2018-10-12T17:38:48.334Z",
+        "firstPublishedAt": "2018-10-08T15:41:42.449Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 9,
+        "version": 683,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Capturing implementation"
+        },
+        "summary": {
+          "en-US": "A step implementation captures the _way_ the step is fulfilled at any given point in time.\n\n"
+        },
+        "body": {
+          "en-US": "## Adding images\nPerhaps the best way to showcase a specific implementation is to provide images –– product screenshots, photographs from sites visits, chat transcripts, etc. –– that illustrate the way the implementation plays out. These images can be played back to stakeholders when articulating the journey.\n\n## Describing an implementation\nImplementations can be described as a set of discrete interactions: actions a user needs to take in order to execute on their step intent. \n\nExamples of implementation-level interactions include:\n\n- Click\n- Select\n- Open\n- Close\n- Type\n- Scroll\n- Hover\n\n## Associating an offering\nIf implementing the step involved the use of an offering, list the offering used here."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "5OlMcaYf1mAY8a6WYg8QCM",
+        "type": "Entry",
+        "createdAt": "2018-09-19T22:21:11.450Z",
+        "updatedAt": "2018-10-12T16:14:27.350Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 296,
+        "publishedAt": "2018-10-12T16:14:27.350Z",
+        "firstPublishedAt": "2018-10-12T16:14:27.350Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 297,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Preparing for competitive analysis"
+        },
+        "summary": {
+          "en-US": "You can’t differentiate in the market if you don’t know what you’re up against. Competitive experience analysis helps us make better decisions about how to differentiate, helping us capture new market share and stay one step ahead of the competition.\n"
+        },
+        "body": {
+          "en-US": "# Risks\n\nAll business comes with risks. Every time we invest in a new initiative, we run the risk of that initiative not returning on its investment. When we invite a non-IBMer to speak at an IBM conference, we run the risk that they end up bad-mouthing us on stage to a room full of potential customers.\n\nWe take these risks because we trust that the appropriate steps have been taken to minimize risks, and the consequences associated with these risks.\n\nConducting competitive analysis also comes with a set of potential risks. If conducted incorrectly, we risk: \n\n\n## Breaching the terms of a contract/license\n\nEvery time we use a competitor offering, we are subject to their terms of the agreement. We’ll cover this later, but it’s important to ensure that you adhere to these agreements. Failure to adhere can result in lawsuits that bring harm to IBM and your career.\n\n## Infringing on a copyright\n\nWhen you analyze a competitor offering, you’ll inevitably learn a thing or two. Some of the things you will encounter are considered intellectual property, whether they are explicitly labeled or not. For this reason, it’s important to never use any material you aren’t authorized to use.\n\n## Breaching a confidentiality agreement\n\nSome of our encounters with our competitors happen in settings where we’ve been asked to sign a confidentiality agreement, such as a non-discloure form. In this case, using proprietary information you learned during the engagement is off-limits.\n\n## Committing a Trade Secret Violation\n\nTrade secrets are a form of intellectual property organizations generate. They can come in many forms, including certain design patterns, practices and process, or any other information a business can use to gain a competitive advantage, and that isn’t generally available to the public. Stealing (acquiring it by improper means) or misappropriating (using it without consent) a trade secret is a crime.\n\nWe take these risks to IBM seriously. Not only do these damage our reputation as a company of integrity, but if someone decides to bring a suit against us, it can result in financial loss to the company. Someone might file a suit if they even think that we copied them.\n\nThis isn’t meant to discourage you from competitive analysis. On the contrary, IBM encourages teams to conduct competitive analysis, as long as we take steps to minimize risk. By putting the right safeguards in place and conducting ourselves ethically, we can learn about our competitors and minimize the risk to IBM.\n\n# Restrictions\n\nThere are restrictions to who can do the analysis and which competitors you can analyze. \n\n## Who can conduct competitive analysis?\n\nThe only people explicitly forbidden from conducting competitive analyses are developers. If you are a developer, you are not permitted to conduct a competitive analysis.\n\nYou are a developer if you engage in any of these activities on your current project or offering team:\n\n- Define or design program logic flow for IBM software products.\n- Write code that shapes an API, GUIs, etc. (yes, front-end developers count) for IBM software products.\n- Do technical research that might end up in future program logic flows.\n\nIf you’re not sure whether you fall under this category, ask your manager or someone else in your reporting chain. They should be able to determine whether or not you’re a developer.\n\n## Which competitors can I analyze?\n\nYou can analyze any competitor offering, as long as the competitor’s fine print (often called the “Terms of Use” or “Terms of Service”) doesn’t explicitly forbid it.\n\nThe language in those Terms of Use language can get pretty gory, so make sure to contact your IP Law Department to help you review the competitor’s terms of use.\n\nHere are some examples of language that explicitly forbids competitive analysis. This includes license agreement that prohibits reverse-engineering: \n\n\n### Salesforce Heroku\n\nYou may use the Heroku Services only to develop and run applications on the Heroku infrastructure. You may not access the Heroku Services for the purpose of bringing an intellectual property infringement claim against Heroku or for the purpose of creating a product or service competitive with the Heroku Services. https://www.heroku.com/policy/aup\n\n### Amazon Rekognition\n\nYou will not, and will not allow any third-party to, use Amazon Lex, Amazon Polly, or Amazon Rekognition to, indirectly or directly, develop or improve a similar or competing product or service. https://aws.amazon.com/service-terms/\n\n## What content am I allowed to analyze?\n\nGenerally speaking, you you are not allowed to analyze things that makes the product work. You’re not allowed to reverse-engineer, which in software terms, means analyzing anything that has to do with program logic flow or code.\n\nHowever, there’s a lot that you can analyze. Generally speaking, things that a normal user or customer would also use, or have access to, are fair game.\n\nHere are some examples of language that explicitly forbids competitive analysis. This includes license agreement that prohibits reverse-engineering:\n\n### Program logic flow: NO\n\nReverse-engineering program logic flow is explicitly forbidden. Trying to determine how a software tool calls data from a database, analyzes it, and then sends it to a front-end component is an example of something that would be considered reverse-engineering.\n\n### Code: NO\n\nAnalyzing source code, whether client or server, handwritten or procedurally generated, is also considered reverse-engineering. Stay away from that monospaced demon.\n\n### User experience: YES\n\nWhat’s an end user’s perception of a competitor offering? How does that stack against our own competing offering? This isn’t only legal –– we really need you to do this, please.\n\n### Features and functions: YES\n\nGenerally speaking, you’re allowed to analyze a competitor’s feature and function set. Keep in mind, however, that competitor offerings sometimes include exposure to code they wrote. Take as many precautions as you can to avoid contact.\n\n### Performance: YES\n\nWondering what the load times on a product page is? Trying to benchmark the time it takes to analyze a large data set? You are welcome to conduct performance benchmarks, so long as they don't require exposure to the program logic.\n\n### Licensing and pricing: YES\n\nWondering what users and customers can get for their money? Curious to see what’s included in their freemium version versus their paid version? You are free to analyze their pricing, read their licensing, etc.\n\n# Required approvals\n\nThere are a few approvals you’ll need to get before actually conducting the analysis.\n\n## Your IP Law Department\n\nEach business unit has a designated IP Law contact. Ask your manager if you don’t already know who this is.\n\n## A Vice President in your business\n\nIt might be hard to get 30 minutes on their calendar, but they’ll certainly respond to a simple email request. If you feel like they might take some convincing, bring the IP lawyer into the loop. Usually they can work it out together.\n\n# Follow-up\n\n## Mark the analysis confidential\n\nRecords of access and reports generated from assessment of non-IBM offerings are classified “IBM Confidential” as described in IBM Corporate Instruction LEG116, “Classification and control of IBM information.”\n\nBy default, all data in the Journey System tool is marked IBM Confidential.\n\n## Disclose your competitive analysis\n\nIf you conduct a competitive analysis and the information you gained helped to inform a decision that affected your offering in some way, make sure to disclose it.\n\nBefore an IBM offering is disclosed, announced, or offering for sale or lease, there’s a pretty stringent review process conducted by the IP Law office. In this process, they make sure that you aren’t infringing on someone’s intellectual property. This review will result in a Certificate of Originality.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "1oDDFXW8OwQWeY0Ss8QSsY",
+        "type": "Entry",
+        "createdAt": "2018-09-19T22:35:07.911Z",
+        "updatedAt": "2018-11-06T17:28:27.439Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 82,
+        "publishedAt": "2018-10-08T15:42:35.428Z",
+        "firstPublishedAt": "2018-10-08T15:42:35.428Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 88,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Explore"
+        },
+        "summary": {
+          "en-US": "Explore is the phase in which in which a user is looking for candidate solutions to fulfill a need. This phase begins when a user looks into their everyday context for what solution will fulfill their need.\nThis phase ends when a user has identified a set of candidate solutions."
+        },
+        "body": {
+          "en-US": "What users need\n- Find a candidate to fulfill a need\n\nWhat we want\n- Trust\n- Name recognition\n\nPotential return\n- $10\n\nAbandonment outcome\nA user finds no relevant options from IBM.\n\nDesired outcome\nA user has identified a set of candidate solutions from IBM."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "3nCALfVYJ22kY0YCEsoies",
+        "type": "Entry",
+        "createdAt": "2018-09-19T22:37:45.508Z",
+        "updatedAt": "2018-10-08T15:42:56.834Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 70,
+        "publishedAt": "2018-10-08T15:42:56.833Z",
+        "firstPublishedAt": "2018-10-08T15:42:56.833Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 71,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Evaluate"
+        },
+        "summary": {
+          "en-US": "Evaluate is the phase in which a user wants to decide on a solution that best fulfills their need. This phase begins when a user collects evidence to determine what solution will best fulfill their need. This phase ends when a user commits to a solution to fulfill their need.\n"
+        },
+        "body": {
+          "en-US": "What users need\n- Realistically evaluate the suitability of multiple candidates with minimal investment\n- Understand how to get value from an offering/solution\n- Compare an offering/solution against other options\n- \nWhat we want\n- Conversion to paid customers\n- Market share\n- Advocacy\n\nPotential return\n$100\n\nAbandonment outcome\n- A user identifies that IBM does not fulfill the need better than other options.\n\nDesired outcome\n- A user identifies that IBM fulfills the need better than other options."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "1dn8WxJLbcQsgWcWaWEYOo",
+        "type": "Entry",
+        "createdAt": "2018-09-19T22:39:01.705Z",
+        "updatedAt": "2018-10-08T15:42:45.317Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 54,
+        "publishedAt": "2018-10-08T15:42:45.317Z",
+        "firstPublishedAt": "2018-10-08T15:42:45.317Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 55,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Embrace"
+        },
+        "summary": {
+          "en-US": "Embrace is the phase in which a user has committed to employ the solution toward a real problem. This phase begins when a user begins to implement the solution for real-world use. This phase ends when a user fully relies on the solution in the real world."
+        },
+        "body": {
+          "en-US": "What users need\n- Establish productive use\n- Trust us to reliably deliver desired outcomes\n- See return on their investment\n- Regain productivity when something goes wrong\n\nWhat we want\n- Monthly active monetized users\n- Revenue / Time\n- Retention (“Stickiness\")\n- Advocacy\n\nPotential return\n- $1,000\n\nAbandonment outcome\n- A user no longer trust the IBM solution to adequately fulfill the need.\n\nDesired outcome\n- A user derives enough value from the IBM solution that they choose to extend its application or scope."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "5eECRRPnH26uUyS8AAMywG",
+        "type": "Entry",
+        "createdAt": "2018-09-19T22:40:28.927Z",
+        "updatedAt": "2018-10-08T15:42:40.119Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 68,
+        "publishedAt": "2018-10-08T15:42:40.119Z",
+        "firstPublishedAt": "2018-10-08T15:42:40.119Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 69,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Extend"
+        },
+        "summary": {
+          "en-US": "Extend is the phase in which users choose to widen the application or scope of a solution. This phase begins when a user wants to widen the scope of utility for their current solution. This phase ends when a user successfully widens the scope of utility for their current solution.\n"
+        },
+        "body": {
+          "en-US": "What users need\n- Scale a solution that works\n- Manage a scaled solution\n- Upgrade their existing solution\n\nWhat we want: our KPIs\n- Expand solution footprint\n- Monthly active use\n- Increase in paid service calls\n- Market share\n\nPotential return\n- $10,000+\n\nAbandonment outcome\n- A user no longer trusts the IBM solution to fulfill the need adequately.\n\nDesired outcome\n- A user scales the IBM solution to other applications."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "4ak3msnv2UOgsumGIYSms",
+        "type": "Entry",
+        "createdAt": "2018-09-19T22:41:27.878Z",
+        "updatedAt": "2018-10-08T15:42:51.447Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 45,
+        "publishedAt": "2018-10-08T15:42:51.447Z",
+        "firstPublishedAt": "2018-10-08T15:42:51.447Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 46,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Expand"
+        },
+        "summary": {
+          "en-US": "Less a phase than an event, Expand is where a user chooses to explore fulfilling an adjacent need with another IBM solution. This phase begins when a user explores fulfilling a new or adjacent need in addition to their current solution. This phase ends when a user collects evidence to determine what solution will best fulfill the new or adjacent need."
+        },
+        "body": {
+          "en-US": "Think of expansion as the creation of a new relationship — a branch that can cleave off the original relationship at any time."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "12y8RFQcaiWQy6isgeCWEm",
+        "type": "Entry",
+        "createdAt": "2018-09-19T22:42:43.773Z",
+        "updatedAt": "2018-10-12T16:12:32.782Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 62,
+        "publishedAt": "2018-10-12T16:12:32.782Z",
+        "firstPublishedAt": "2018-10-08T15:42:26.776Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 63,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The Five E's commitment model"
+        },
+        "summary": {
+          "en-US": "Across each journey, a user and their organization’s commitment to fulfilling needs with IBM can be represented by the five phases of the Commitment Model — also known as the Five E’s: Explore, Evaluate, Embrace, Extend, Expand."
+        },
+        "body": {
+          "en-US": "Designing a journey is like building a relationship.\n\nRelationships begin the moment two partners first make contact. As the relationship unfolds, level of each partner's commitment and material investment grows. Expectations change, and with them, what we must do to fulfill their needs and keep the relationship going.\n\nWe segment the growth of this relationship into five phases that describe the growth in our users’ emotional and financial commitment with us.\n\nWhen a journey is healthy, users increase their commitment to fulfill needs with IBM across the five E’s, leading to increased revenue over time for IBM.\n\nWhen one or more phases in a journey is made of inefficient, disconnected, inconsistent steps, users get frustrated or fall through the gaps. This leads to lost opportunities and less revenue for IBM."
+        },
+        "relatedDocumentation": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1oDDFXW8OwQWeY0Ss8QSsY"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "3nCALfVYJ22kY0YCEsoies"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "1dn8WxJLbcQsgWcWaWEYOo"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5eECRRPnH26uUyS8AAMywG"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4ak3msnv2UOgsumGIYSms"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "2Gx8pwEBDW66Mm4OoOKO0m",
+        "type": "Entry",
+        "createdAt": "2018-09-20T14:38:58.409Z",
+        "updatedAt": "2018-11-06T22:59:18.504Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 304,
+        "publishedAt": "2018-11-06T21:19:29.996Z",
+        "firstPublishedAt": "2018-10-08T15:42:18.146Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 11,
+        "version": 306,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Capturing a user need"
+        },
+        "summary": {
+          "en-US": "A need is an outcome a user wants to achieve. "
+        },
+        "body": {
+          "en-US": "## Why needs?\nFundamental human needs don’t change. The ways we solve for them change constantly. Yesterday’s horse-drawn carriage was a prototype for today’s automobile. Today’s automobile is just another prototype for tomorrow’s transportation breakthrough. Every new solution is just an iteration on how people fulfill a need, shaped by the technological affordances and constraints of the era. But the problem at its core is defined by a fundamental human need: to get from A to B.\n\nTo deliver great outcomes, we must put user needs ahead of our internal business units, offerings, processes, and incentive structures. We’ll do this by understanding what a user needs to accomplish, providing end-to end journeys to fulfill the need, and measuring our success by the quality of our customers’ experience.\n\n## Determining a need\nThe most critical step in building a journey is knowing the user and how well IBM meets the user’s need. Needs statements are only as reliable as the data you have, so make sure you have defensible data based on real observation (for example, from an Interview or Contextual Inquiry).\n\n### Primary generative design research\nPrimary generative design research is a human-centered design practice that uncovers new opportunities by gathering empirical data directly from end users, in order to developing a deep understanding of what they need and desire.\n\n### Client use case identification\nClients and their requests are a valuable source of data to inform user needs. Have a conversation with your prospective clients to understand what problems they’re looking to solve. But beware: clients don’t always represent the end users in their organization.\n\n### Secondary market opportunity research\nMarket opportunity research seeks to understand the market landscape for a given user need: How many people have that need? How much are they willing to pay to fulfill it? What competitors are fulfilling the need?\n\n### Everyone can play a role\n\n- Offering managers help define the need by assessing trends in the market, etc.\n- Designers help define the need by contributing user research about gaps and pain points\n- Data Scientists help define the need by contributing consumption and top drivers data.\n- Client Representatives can help define the need by meeting with clients and reporting back successes and failures.\n\n## Writing a need statement\n\nA need represents a user's _definition of problem-solved._\n\nA need can be written many ways, but as a best practice, they must contains these critical elements: (when) the need arises, (what) the need is, and the (why) that the user will receive as a benefit.\n\n> When I see a patient, I need a way to take their vitals, so I can assess their health.\n\n## Tips\n\n### Avoid calling out a specific tool\nUsers and customers don’t care about offerings, tools, or specific technologies. They care about is getting their job done––and they will measure us on how well we help them do that job. Their fundamental need is agnostic of the tools and technology used to solve it. \n\n#### Incorrect\n > Use a stethoscope to determine a patient’s heart rate.\n \n#### Correct\n> When I see a patient, I need a way to take their vitals, so I can assess their health.\n\n#### Incorrect\n>  Purchase items from an enterprise catalog.\n\n#### Correct\n>  A new hire joining a team gets the equipment they need to immediately contribute to their team’s effort.\n\n### Avoid writing a Hill\nMarkets evolve quickly, but human needs evolve slowly. The qualities that differentiates a solution continuously evolve as social expectations and technological capabilities evolve. \n\nAs you learn more about market conditions and user expectations, you can use Hills to specify what we need to achieve to deliver a competitive solution. \n\n#### Hill\n> A system administrator can move hundreds of petabytes of data from their on-premise systems to the cloud within days, not weeks.\n\n#### Need\n> As a system administrator, I want to selectively migrate applications and data from on-premise systems to the cloud.\n\n### Synthesize similar needs\nAs you conduct research across different clients and industries, you’ll find patterns and common reference architectures emerge. Some needs look different on the surface, but are actually very similar under the hood. Where possible, strive for more general needs instead of industry-specific ones. \n\n#### Industry-specific\n> I want to understand the health of my fleet’s engine stock so I can anticipate maintenance events and minimize aircraft downtime.\n\n#### General\n> Understand the health of my equipment so my company can anticipate maintenance events and keep them running."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "s5dta7GEHmaqEAwcqKG44",
+        "type": "Entry",
+        "createdAt": "2018-09-20T15:18:51.863Z",
+        "updatedAt": "2018-10-17T15:29:07.851Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 315,
+        "publishedAt": "2018-10-16T19:06:40.256Z",
+        "firstPublishedAt": "2018-10-08T16:14:47.362Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5PyqZ8QeAzH8yVHXF4jHQs"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 322,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Crafting Hills"
+        },
+        "summary": {
+          "en-US": "Hills are statements of intent written as meaningful user outcomes. You can write a Hill to articulate what your team needs to achieve to improve a step or set of steps."
+        },
+        "body": {
+          "en-US": "## Writing Hills\n\nHills are made up of three specific parts:\n\n### Who\nWho is your user? Refer to them by name.\n\nIn order to solve your users’ needs, you have to first understand who they are. \n\n### What\nWhat will your user be able to do that they couldn’t before? Start with a verb and avoid solutions.\n\nResearch helps you identify the specific user types you are serving, as well as understand their goals and pain points. \n\n\n### Wow\nWhat differentiates you from the competition? This is measurable.\n\nYou must understand the competitive landscape, including unmet user needs and opportunities to differentiate. Activities could include: lean canvas and competitive experience mapping.\n\n### Examples\n\n> Jenny, a financial advisor, can determine a client’s financial risks in less than 2 minutes.\n\n> Rob, an emergency room nurse, can determine patient priority without consulting anyone else."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "3UGzYD0hxSikOWuGao0gaW",
+        "type": "Entry",
+        "createdAt": "2018-09-20T18:14:03.195Z",
+        "updatedAt": "2019-01-14T19:25:11.368Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 107,
+        "publishedAt": "2018-10-12T16:49:25.288Z",
+        "firstPublishedAt": "2018-10-12T16:49:25.288Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 210,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Complexity analysis"
+        },
+        "summary": {
+          "en-US": "Complexity analysis is a quantitative usability inspection method based on finding and quantifying impediments that get in the way of easily learning and using software. These impediments are quantified by a metric we call “complexity.” Think of complexity as an inverse measure of usability: the higher the complexity, the lower the usability of a step. "
+        },
+        "body": {
+          "en-US": "## Assigning complexity\nIn a complexity analysis, researchers perform a cognitive walkthrough of each step. As they do, they identify pain points and categorize their severity based on a rubric for six distinct categories. This results in a complexity score for each step, each phase, and ultimately each journey. \n\n### Context shifts\nA context shift occurs when the user crosses user interface, tool, or product boundaries in order to perform a step.\n\n###  Navigational guidance\nNavigational guidance refers to the support provided to a user for proceeding into a step (from the previous step) and through the step. It is characterized by the user question: “where do I go next, and what do I do when I get there?”\n\n### Input parameters\nAn input parameter is any data supplied by the user as part of a step. A step can include zero or more input parameters. \n\n### System feedback\nSystem feedback is the system response to the user actions for a given step. Examples of system feedback include progress indication dialog boxes, confirmation of command execution, and system-generated reports. \n\n### Error feedback\nError feedback is the system response to common error situations the user may encounter. Examples of error feedback include error messages, visual cues that identify incorrect field values, and troubleshooting documentation. \n\n### New concepts\nA new concept for a step is a concept that is introduced to the user for the first time.\n\n### Unassigned\nDoes not belong to one of the existing categories."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "5RQVg4eD3UQEIo6AWqAGwi",
+        "type": "Entry",
+        "createdAt": "2018-10-12T17:20:55.772Z",
+        "updatedAt": "2018-10-12T19:21:10.102Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 515,
+        "publishedAt": "2018-10-12T19:21:10.102Z",
+        "firstPublishedAt": "2018-10-12T17:26:52.079Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 516,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Offerings"
+        },
+        "summary": {
+          "en-US": "IBM organizes teams around units of business value called offerings: products, services, or combination of products and services packaged and monetize to generate business value to IBM."
+        },
+        "body": {
+          "en-US": "## Offerings and journeys\n\nUsers, however, don't care about offerings. They care about fulfilling their need. Their judgement of IBM is a reflection of their entire experience with anything they interact with, regardless of the offering that owns it, as they work to fulfill a need.\n\nIt's important for every offering team to identify how they fit into the needs they fulfill for users.\n\n## Find your offering\n\nSearch for your offering to identify the needs and journeys you help fulfill for your users.\n\nCan't find your offering in this list? Start by capturing a user need or logging a journey containing your offering."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "698DnzwaOWk222iIC2EaAW",
+        "type": "Entry",
+        "createdAt": "2019-01-09T16:28:43.877Z",
+        "updatedAt": "2019-01-09T18:44:41.566Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1123,
+        "publishedAt": "2019-01-09T18:44:41.566Z",
+        "firstPublishedAt": "2019-01-09T18:40:23.641Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 1124,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Opportunities"
+        },
+        "summary": {
+          "en-US": "Opportunities are work items a team can execute to improve the quality of the frontstage experience.\n\n"
+        },
+        "body": {
+          "en-US": "## Orchestrating journey improvement\n\nIt can be challenging for cross-functional, cross-business unit teams to align and coordinate work across teams, code bases, and backlogs around a common journey.\n\nThis is why the journey is an important place for you to capture any and all of the work to be done against a journey, regardless of which team and which backlog your work resides.\n\nYou might start by combing through your existing backlog and copying any issues you know exist to improve a step. Once you've created an opportunity in Radar, add a link to a corresponding backlog item in your backlog, or backlogs, of choice.\n\n## Capturing new opportunities\n\nThere are many ways to capture work to be done to improve your journey. \n\nBased on the pain points you've identified in the journey, generate ideas to improve the journey. Try one of the following methods with your team:\n\n1. [Big Ideas](https://www.ibm.com/design/thinking/page/toolkit/activity/big-idea-vignettes): a description of the experience a user might have with an improved solution (think: \"it's kind of like...).\n2. [Hills](https://www.ibm.com/design/thinking/page/toolkit/activity/writing-hills): statements of intent written as measurable user outcomes.\n3. [Epics and User Stories](https://www.ibm.com/design/thinking/page/toolkit/activity/user-stories): a requirement, written as a discrete tasks a user must do to reach their goal.\n\n## Linking to your backlog"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "4ImUbxxT0uHVxnc07DIEQj",
+        "type": "Entry",
+        "createdAt": "2019-01-14T19:06:12.782Z",
+        "updatedAt": "2019-01-14T19:19:26.832Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 61,
+        "publishedAt": "2019-01-14T19:19:26.832Z",
+        "firstPublishedAt": "2019-01-14T19:09:03.878Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 62,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Context shifts"
+        },
+        "summary": {
+          "en-US": "A context shift occurs when the user crosses user interface, tool, or product boundaries in order to perform a step. For example, if a user moves from an eclipse-based application development tool to a web-based monitoring tool to complete a step then the user experiences a context shift.\n"
+        },
+        "body": {
+          "en-US": "## None (no pain)\nComplexity points: 0\n\nIf a step fulfills this criteria, no pain should be assigned.\n\nEither the user stays in the same workspace as they proceed into and through the step, or the step consists of the user following the sequence of a task-based interface such as a wizard.\n\n## Low\nComplexity points: 3\n\nUser stays within the same product as they complete the step. Context shifts in this step can include a context shift to another workspace in the same tool, but not within a task-based interface, or a context shift to another tool in the same product. If four or more Low context shifts are required for the step then the step is assigned a High context shift complexity.\n\nEither the user stays in the same workspace as they proceed into and through the step, or the step consists of the user following the sequence of a task-based interface such as a wizard.\n\n## High\nComplexity points: 9\n\nUser must move across product boundaries to complete this step.\n\n## Blocker\nComplexity points: N/A\n\nUser cannot complete step because of context shift.\n\n\n\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "3uQN15Okicln5R8qRaS2oR",
+        "type": "Entry",
+        "createdAt": "2019-01-14T19:07:50.865Z",
+        "updatedAt": "2019-01-14T19:10:26.527Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 34,
+        "publishedAt": "2019-01-14T19:10:26.527Z",
+        "firstPublishedAt": "2019-01-14T19:10:26.527Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 35,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": " Input parameters"
+        },
+        "summary": {
+          "en-US": "An input parameter is data supplied by the user as part of a step in a task. A step can include zero or more input parameters. The term parameter is an abbreviation of “input parameter.” "
+        },
+        "body": {
+          "en-US": "## None (no pain)\nComplexity points: 0\n\nIf a step fulfills this criteria, no pain should be assigned.\n\nEither no input parameters are required for this step, or the only input parameters required for this step are reused from previous steps.\n\n## Low\nComplexity points: 3\n\nThe most complex input parameter for this step does not require expertise beyond that of the target user, and is either:\n\n- a free-choice text entry (e.g., choosing a name for a new object),\n- a user selection from a set of options, or\n- a parameter based on documentation either taken directly or adapted by the user.\n\nIf four or more Low input parameters are required for the step then the step is assigned a High input parameter complexity.\n\n## High\nComplexity points: 9\n\nThe most complex input parameter for this step is either:\n\n- an expertise-based parameter (requires the expertise of a user who is more experienced / knowledgeable than the target user), or\n- a cross-role parameter (the input parameter cannot be provided by the targeted user because authority / responsibility for providing this input parameter rests with another type of user).\n\n## Blocker\nComplexity points: N/A\n\nUser cannot complete step because parameter cannot be input; user abandonment."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "7Gv0I5hFny8Yuyelsj5u5E",
+        "type": "Entry",
+        "createdAt": "2019-01-14T19:10:37.089Z",
+        "updatedAt": "2019-01-14T19:11:29.133Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 33,
+        "publishedAt": "2019-01-14T19:11:29.133Z",
+        "firstPublishedAt": "2019-01-14T19:11:29.133Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 34,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Navigational guidance"
+        },
+        "summary": {
+          "en-US": "Navigational guidance refers to the support provided to a user for proceeding into a step (from the previous step) and through the step. It is characterized by the user question: “where do I go next, and what do I do when I get there?”"
+        },
+        "body": {
+          "en-US": "## None (no pain)\nComplexity points: 0\n\nIf a step fulfills this criteria, no pain should be assigned.\n\nUser interface provides one primary, “well-constrained” navigational path through the step, as in navigating through a wizard page.\n\n## Low\nComplexity points: 3\n\nUser is explicitly guided through a choice of multiple navigational paths for the step by the user interface, integrated information, and/or product documentation.\n\nIf navigation through the step requires selection of hidden UI elements (e.g., under drop-down menus) or entering commands then explicit guidance must be provided by product documentation.\n\n## High\nComplexity points: 9\n\nNo support for enabling users to complete the navigation on their own. The user interface, integrated information, and product documentation do not, collectively, provide sufficient guidance. The user interface and its integrated information may provide some guidance but not enough for the user to identify the right path to take without significant trial-and-error experimentation. The product documentation may provide some guidance but it is lacking in clarity or completeness.\n\n## Blocker\nComplexity points: N/A\n\nUser cannot complete step because navigation does not provide for it; user abandonment.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "6rCaNTtog8FEvFtmdfr9C3",
+        "type": "Entry",
+        "createdAt": "2019-01-14T19:11:33.787Z",
+        "updatedAt": "2019-01-14T19:12:34.772Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 30,
+        "publishedAt": "2019-01-14T19:12:34.772Z",
+        "firstPublishedAt": "2019-01-14T19:12:34.772Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 31,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": " System feedback"
+        },
+        "summary": {
+          "en-US": "System feedback is the system response to the user actions for a given step (with the exception of error feedback which is addressed in the next point). Examples of system feedback include progress indication dialog boxes, confirmation of command execution, and system-generated reports. "
+        },
+        "body": {
+          "en-US": "## None (no pain)\nComplexity points: 0\n\nIf a step fulfills this criteria, no pain should be assigned.\n\nIn response to user actions for the step, the system:\n\n- confirms user actions,\n- refreshes any required progress information regularly,\n- presents low information clutter,\n- provides feedback relevant to helping the user complete the step,\n- returns low volume of information – everything can be displayed without scrolling in a maximized workspace,\n- delivers complete feedback automatically (no manual actions required) and in the same workspace as the user actions.\n\n## Low\nComplexity points: 3\n\nIn response to user actions for the step, the system:\n\n- confirms user actions,\n- refreshes any required progress information regularly,\n- presents low information clutter.\n\n## High\nComplexity points: 9\n\nSystem feedback does not meet one or more of the three Low requirements above.\n\n## Blocker\nComplexity points: N/A\n\nUser cannot complete step because system feedback is insufficient.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "1eS9NwPrKCQ3bxK0IIkfW2",
+        "type": "Entry",
+        "createdAt": "2019-01-14T19:12:42.934Z",
+        "updatedAt": "2019-01-14T19:13:37.821Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 28,
+        "publishedAt": "2019-01-14T19:13:37.821Z",
+        "firstPublishedAt": "2019-01-14T19:13:37.821Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 29,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Error feedback"
+        },
+        "summary": {
+          "en-US": "Error feedback is the system response to common error situations the user may encounter. Examples of error feedback include error messages, visual cues that identify incorrect field values, and troubleshooting documentation. "
+        },
+        "body": {
+          "en-US": "## None (no pain)\nComplexity points: 0\n\nIf a step fulfills this criteria, no pain should be assigned.\n\nEither no errors are possible for this step, or the following requirements are met for each common error condition:\n\n- user interface clearly identifies the error condition,\n- the specific error condition is identified rather than several possible error conditions, and\n- specific and complete recommendations on diagnosing and fixing the error are provided by either the user interface or by a single documentation article that is accessed through a link in the user interface.\n\n## Low\nComplexity points: 3\n\nFor each common error condition:\n\n- user interface clearly identifies the error condition,\n- the specific error condition is identified rather than several possible error conditions,\n- specific and complete recommendations on diagnosing and fixing the error are provided by product documentation in one place, and\n- match between the error reported in the user interface and the associated recommendations in product documentation.\n\n## High\nComplexity points: 9\n\nError feedback does not meet one or more of the four Low requirements above.\n\n## Blocker\nComplexity points: N/A\n\nUser cannot complete step because error or error feedback prevents task completion.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "2uqY205i37JTtvDNgtGqaX",
+        "type": "Entry",
+        "createdAt": "2019-01-14T19:13:53.410Z",
+        "updatedAt": "2019-01-14T19:21:54.777Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 25,
+        "publishedAt": "2019-01-14T19:14:26.557Z",
+        "firstPublishedAt": "2019-01-14T19:14:26.557Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 27,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": " New concepts"
+        },
+        "summary": {
+          "en-US": "A concept is a piece of background information on a topic area the user needs to understand in order to perform a step. Concepts include the underlying externals model of the product and user interface objects / metaphors / models. A new concept for a step is a concept that is introduced to the user for the first time."
+        },
+        "body": {
+          "en-US": "\n## None (no pain)\nComplexity points: 0\n\nIf a step fulfills this criteria, no pain should be assigned.\n\nThis step does not expose the user to any new concepts that are not common concepts. (A common concept is background information / terminology that is commonly understood by the target user.)\n\n## Low\nComplexity points: 4\n\nA new concept is introduced that is not a common concept. However, the concept is clearly explained in product documentation for the purpose of completing this step.\n\n## High\nComplexity points: 12\n\nAt least one new concept is not explained well enough in the product documentation for users to complete this step. Users will need to rely on sources other than product documentation (e.g., community support, official technical support channels for the product).\n\n## Blocker\nComplexity points: N/A\n\nUser cannot complete step because new concepts are incomprehensible to user.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "id": "MFXlbNd2cT6UZoHTh1Ftq",
+        "type": "Entry",
+        "createdAt": "2019-03-20T15:38:48.358Z",
+        "updatedAt": "2019-03-20T15:41:00.518Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 120,
+        "publishedAt": "2019-03-20T15:41:00.518Z",
+        "firstPublishedAt": "2019-03-20T15:38:56.140Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 121,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0wPDDbjTpJrxS01IAD2d4e"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "journeySystemDocumentation"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Blocker"
+        },
+        "summary": {
+          "en-US": "Blockers indicate that for any reason, users are generally unable to complete this step."
+        }
+      }
+    }
+  ],
+  "assets": [
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "7pGoifYx7qtKxbm2sPkp0A",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "be1e2854-64eb-4239-953a-627a5c9af93b"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5PyqZ8QeAzH8yVHXF4jHQs"
+          }
+        },
+        "createdAt": "2018-09-14T21:42:07Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5PyqZ8QeAzH8yVHXF4jHQs"
+          }
+        },
+        "updatedAt": "2018-09-14T21:42:07Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "2Tzm3bZgz3YXeRJqZKac4q",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "rgmo2fwlfqdf"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5PyqZ8QeAzH8yVHXF4jHQs"
+          }
+        },
+        "createdAt": "2018-10-10T20:52:49Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5PyqZ8QeAzH8yVHXF4jHQs"
+          }
+        },
+        "updatedAt": "2018-10-10T20:52:49Z"
+      }
+    }
+  ]
+}
