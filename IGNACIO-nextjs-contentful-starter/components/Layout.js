@@ -1,25 +1,35 @@
-import Link from 'next/link'
+import dynamic from 'next/dynamic';
+const DDSDotcomShellContainer = dynamic(import('@carbon/ibmdotcom-web-components/es/components-react/dotcom-shell/dotcom-shell-container.js'), { ssr: false });
 
 export default function Layout({ children }) {
   return (
     <div>
       <header>
         <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/plex.css" />
-        <Link href="/">
-          <a>
-            <h1>
-              <span>Just Add</span>
-              <span>Marmite</span>
-            </h1>
-            <h2>Spread The Joy</h2>
-          </a>
-        </Link>
+        <meta charset="UTF-8" />
+
+        <link rel="icon" href="//www.ibm.com/favicon.ico" />
+
+        <meta name="dcterms.date" content="YYYY-MM-DD" />
+        <meta name="dcterms.rights" content="© Copyright IBM Corp. 2016" />
+        <meta name="geo.country" content="US" />
+        <meta name="robots" content="index,follow" />
+        <script src="//1.www.s81c.com/common/stats/ibm-common.js" defer></script>
+        
+        {process.env.ENABLE_RTL === "true" && (
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+            document.documentElement.dir = 'rtl';
+            document.getElementsByTagName('html')[0].setAttribute('dir', 'rtl');
+            `,
+              }}
+            />
+          )}
       </header>
-
-      <div className="page-content">
+      <DDSDotcomShellContainer>
         { children }
-      </div>
-
+      </DDSDotcomShellContainer>
     </div>
   )
 }

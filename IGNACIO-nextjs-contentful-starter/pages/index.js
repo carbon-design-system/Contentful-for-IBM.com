@@ -26,8 +26,6 @@ export async function getStaticProps() {
 }
 
 export default function Recipes({page}) {
-  console.log(page)
-
   const { body } = page?.fields;
 
   return (

@@ -123,22 +123,22 @@
     "@carbon/import-once" "^10.7.0"
     "@carbon/layout" "^10.37.1"
 
-"@carbon/ibmdotcom-services@1.36.0":
-  version "1.36.0"
-  resolved "https://registry.yarnpkg.com/@carbon/ibmdotcom-services/-/ibmdotcom-services-1.36.0.tgz#bbc17c2520d8973f24bec1341b08e974b5ed49d8"
-  integrity sha512-+lBT9yRsnbIZCEZVpV8XPj/dy+9fkpZe1sF5ZraWlLzAfflFLg8Fb3Is0G1nUvMEVgJ31iN+AU3zipR007EG2A==
+"@carbon/ibmdotcom-services@1.37.0-canary.2827990371.0+320b30a":
+  version "1.37.0-canary.2827990371.0"
+  resolved "https://registry.yarnpkg.com/@carbon/ibmdotcom-services/-/ibmdotcom-services-1.37.0-canary.2827990371.0.tgz#cea925294056e0c54802270d197831844cea4a64"
+  integrity sha512-pju94vAqGZXMlbcSZGbP+yAl0CVAB2AstPfNryHpsr7D5iTU0z+8BQ+w1qljUfE9FOFRTKgFKDClO+WloH62Hw==
   dependencies:
     "@babel/runtime" "^7.5.0"
-    "@carbon/ibmdotcom-utilities" "1.36.0"
+    "@carbon/ibmdotcom-utilities" "1.37.0-canary.2827990371.0+320b30a"
     "@carbon/telemetry" "0.1.0"
     axios "^0.27.2"
     marked "^4.0.10"
     window-or-global "^1.0.1"
 
-"@carbon/ibmdotcom-styles@1.36.0":
-  version "1.36.0"
-  resolved "https://registry.yarnpkg.com/@carbon/ibmdotcom-styles/-/ibmdotcom-styles-1.36.0.tgz#583d7c2584d9fe414aa577b3d82f4b334bc261fd"
-  integrity sha512-hHTLcSjcKUFk18keFOXnFwElMtcE1vz9R9KOz2AKzOo3yhK+Td5LckBmR9pON6tYdorUuyIUaGtoeQuZqVszlw==
+"@carbon/ibmdotcom-styles@1.37.0-canary.2827990371.0+320b30a":
+  version "1.37.0-canary.2827990371.0"
+  resolved "https://registry.yarnpkg.com/@carbon/ibmdotcom-styles/-/ibmdotcom-styles-1.37.0-canary.2827990371.0.tgz#cd335c8fab9b2b06ec2668d58c74d5b95012f9b0"
+  integrity sha512-21Ir5S1iEHFwci7eO0hgwBjja0pv4TD2ZRl/l83aCuOmyfAqNnjskQJzwRzG+3ndinI5F8QQHSqkpGBHkt2Z9w==
   dependencies:
     "@carbon/grid" "10.43.1"
     "@carbon/icons-react" "10.49.0"
@@ -150,10 +150,10 @@
     "@carbon/type" "10.44.0"
     carbon-components "10.57.2"
 
-"@carbon/ibmdotcom-utilities@1.36.0":
-  version "1.36.0"
-  resolved "https://registry.yarnpkg.com/@carbon/ibmdotcom-utilities/-/ibmdotcom-utilities-1.36.0.tgz#b04ebfe6a9a6068ac63951076bf12b8d02c4540d"
-  integrity sha512-4TNS32WRCaZXKMKpPQOqWjZdImJx0R7FOOmP9QTz5DbCqgm2TcTVCcssA2orf16H2EBbZmGAdp4hj81T84nOQg==
+"@carbon/ibmdotcom-utilities@1.37.0-canary.2827990371.0+320b30a":
+  version "1.37.0-canary.2827990371.0"
+  resolved "https://registry.yarnpkg.com/@carbon/ibmdotcom-utilities/-/ibmdotcom-utilities-1.37.0-canary.2827990371.0.tgz#93eb79865c5505cc182ae65b7afeedb5db0f0ed3"
+  integrity sha512-L8TZDPe8tjCXPwx1FHiROYvqfxAqgzFKYfTTnkhIzBXak6Ss/C6aIPAd1JQHGO0XrqhkjKCNfpEVTJXjZIk44w==
   dependencies:
     "@carbon/telemetry" "0.1.0"
     axios "^0.27.2"
@@ -164,14 +164,14 @@
     striptags "^3.2.0"
     window-or-global "^1.0.1"
 
-"@carbon/ibmdotcom-web-components@^1.21.0":
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/@carbon/ibmdotcom-web-components/-/ibmdotcom-web-components-1.21.0.tgz#210ff10e1c79be02695ac2e641db610025bdfdb9"
-  integrity sha512-UpU19yMXK6j0lzGDJXoscdVHT3/EGzfENnPho44O0MAal8qjgvAhJoGVZ12YLpL7FQ4OOkCnTDoi1KLQT+oK1Q==
+"@carbon/ibmdotcom-web-components@canary":
+  version "1.22.0-canary.2827990371.0"
+  resolved "https://registry.yarnpkg.com/@carbon/ibmdotcom-web-components/-/ibmdotcom-web-components-1.22.0-canary.2827990371.0.tgz#1b1c6dc292b25cfe62be32aa90f496f28049d376"
+  integrity sha512-72F5buLc5kCt1OHr9yYrFCvUMpcgz9UeVn2cfaWV+HRlXUrpGmimTkzUx+hbWM7omlRKdq++mrDjyf5/6HvKMA==
   dependencies:
-    "@carbon/ibmdotcom-services" "1.36.0"
-    "@carbon/ibmdotcom-styles" "1.36.0"
-    "@carbon/ibmdotcom-utilities" "1.36.0"
+    "@carbon/ibmdotcom-services" "1.37.0-canary.2827990371.0+320b30a"
+    "@carbon/ibmdotcom-styles" "1.37.0-canary.2827990371.0+320b30a"
+    "@carbon/ibmdotcom-utilities" "1.37.0-canary.2827990371.0+320b30a"
     "@carbon/layout" "10.37.0"
     "@carbon/motion" "^11.0.0"
     "@carbon/telemetry" "0.1.0"

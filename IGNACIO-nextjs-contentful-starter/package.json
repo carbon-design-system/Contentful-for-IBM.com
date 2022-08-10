@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@carbon/ibmdotcom-web-components": "^1.21.0",
+    "@carbon/ibmdotcom-web-components": "canary",
     "contentful": "^9.1.33",
     "next": "12",
     "react": "17.0.1",

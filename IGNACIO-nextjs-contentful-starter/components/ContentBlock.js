@@ -7,6 +7,8 @@ const CardLinkCTA = dynamic(import('../components/CardLinkCTA'), { ssr: false })
 export default function ContentBlock({ contentBlock }) {
 	const { heading, copy, border, children } = contentBlock.fields || {};
 
+  console.log('children', children)
+
   return (
     <DDSContentBlock complementary-style-scheme={border ? 'with-border' : ''}>
       <DDSContentBlockHeading>{heading}</DDSContentBlockHeading>
