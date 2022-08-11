@@ -4,6 +4,9 @@ import * as contentful from '../../utils/contentful';
 const ContentBlock = dynamic(import('../../components/ContentBlock'), { ssr: false })
 const Card = dynamic(import('../../components/Card'), { ssr: false })
 
+const ComponentRenderer = dynamic(import('../../components/ComponentRenderer'), { ssr: false })
+
+
 export default function Recipes({page}) {
   console.log(page)
 
@@ -11,18 +14,7 @@ export default function Recipes({page}) {
 
   return (
     <div className="recipe-list">
-      {body.map(component => {
-        console.log(component)
-        const { id } = component.sys.contentType.sys;
-
-        if(id == 'dds-card') {
-          return <Card key={component.sys.id} card={component}/>
-        }
-
-        if(id == 'dds-content-block') {
-          return <ContentBlock key={component.sys.id} contentBlock={component}/>
-        }
-      })}
+      <ComponentRenderer components={body}/>
     </div>
   )
 }

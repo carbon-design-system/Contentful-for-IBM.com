@@ -5,8 +5,8 @@ import DDSCardEyebrow from '@carbon/ibmdotcom-web-components/es/components-react
 import DDSCardFooter from '@carbon/ibmdotcom-web-components/es/components-react/card/card-footer';
 import DDSImage from '@carbon/ibmdotcom-web-components/es/components-react/image/image';
 
-export default function Card({ card }) {
-	const { image, eyebrow, heading, copy, href, ctaText, altText } = card.fields;
+export default function Card(content) {
+	const { image, eyebrow, heading, copy, href, ctaText, altText } = content.fields;
 	const { url } = image?.fields?.file || {};
 
 	return (

@@ -4,16 +4,14 @@ import DDSContentBlockHeading from '@carbon/ibmdotcom-web-components/es/componen
 import DDSContentBlockCopy from '@carbon/ibmdotcom-web-components/es/components-react/content-block/content-block-copy';
 const CardLinkCTA = dynamic(import('../components/CardLinkCTA'), { ssr: false });
 
-export default function ContentBlock({ contentBlock }) {
-	const { heading, copy, border, children } = contentBlock.fields || {};
-
-  console.log('children', children)
+export default function ContentBlock(content) {  
+	const { heading, copy, border, children } = content?.fields || {};
 
   return (
     <DDSContentBlock complementary-style-scheme={border ? 'with-border' : ''}>
       <DDSContentBlockHeading>{heading}</DDSContentBlockHeading>
       <DDSContentBlockCopy>{copy}</DDSContentBlockCopy>
-      {children?.[0] && <CardLinkCTA cardLinkCTA={children[0]}/>}
+      {children?.[0] && <CardLinkCTA {...children[0]}/>}
     </DDSContentBlock>
   );
 }

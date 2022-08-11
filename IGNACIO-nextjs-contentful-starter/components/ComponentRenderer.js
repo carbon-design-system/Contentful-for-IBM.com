@@ -1,0 +1,37 @@
+
+import dynamic from 'next/dynamic';
+const BackgroundMedia = dynamic(import('./BackgroundMedia'), { ssr: false })
+const ContentBlock = dynamic(import('./ContentBlock'), { ssr: false })
+const Card = dynamic(import('./Card'), { ssr: false })
+const Leadspace = dynamic(import('./Leadspace'), { ssr: false })
+const TableOfContents = dynamic(import('./TableOfContents'), { ssr: false })
+
+
+const map = {
+	"dds-content-block": ContentBlock,
+	'dds-card': Card,
+	'dds-background-media': BackgroundMedia,
+	'dds-leadspace': Leadspace,
+	'dds-table-of-contents': TableOfContents
+}
+
+
+export default function ComponentRenderer(content) {
+
+	const { components } = content || {};
+
+	let componentList = components || content.content;
+
+
+	console.log('x', componentList)
+
+	return (
+		<>
+		{componentList.map(component => {
+			const { id } = component.sys.contentType.sys;
+			let ComponentName = map[id];
+			return <ComponentName key={component.sys.id} {...component}/>
+		})}
+		</>
+  )
+}
