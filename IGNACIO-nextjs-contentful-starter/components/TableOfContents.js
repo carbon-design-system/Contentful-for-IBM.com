@@ -8,9 +8,6 @@ export default function Card(content) {
 		<DDSTableOfContents>
 			{contentBody.map(section => {
 				const { sectionHeading, sectionContent } = section?.fields;
-
-				console.log('sectionContent', sectionContent)
-
 				return (
 					<>
     				<a name={sectionHeading} data-title={sectionHeading}></a>

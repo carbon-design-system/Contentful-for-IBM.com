@@ -7,10 +7,9 @@ const Card = dynamic(import('../../components/Card'), { ssr: false })
 const ComponentRenderer = dynamic(import('../../components/ComponentRenderer'), { ssr: false })
 
 
-export default function Recipes({page}) {
-  console.log(page)
+export default function Recipes(props) {
 
-  const { body } = page?.fields;
+  const { body } = props.page?.fields;
 
   return (
     <div className="recipe-list">

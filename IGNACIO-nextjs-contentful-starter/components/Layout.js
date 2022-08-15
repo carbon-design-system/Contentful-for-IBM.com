@@ -6,6 +6,7 @@ export default function Layout({ children }) {
     <div>
       <header>
         <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/plex.css" />
+        <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/grid.css" />
         <meta charset="UTF-8" />
 
         <link rel="icon" href="//www.ibm.com/favicon.ico" />
