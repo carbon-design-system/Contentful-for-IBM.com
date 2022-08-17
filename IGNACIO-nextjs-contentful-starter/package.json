@@ -8,8 +8,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@carbon/charts-react": "^1.5.2",
     "@carbon/ibmdotcom-web-components": "canary",
     "contentful": "^9.1.33",
+    "d3": "^7.6.1",
     "next": "12",
     "react": "17.0.1",
     "react-dom": "17.0.1"
