@@ -22,9 +22,9 @@ export default function _PieChart(content) {
   return (
     <div class="bx--grid" style={{ margin: "2rem 0" }}>
       <div class="bx--row">
-        <div class="bx--col bx--col-sm-4 bx--col-md-4 bx--col-lg-4"></div>
+        <div class="bx--col-lg-4"></div>
 
-        <div class="bx--col bx--col-sm-12 bx--col-md-12 bx--col-lg-12">
+        <div class="bx--col-lg-12">
           <PieChart
             data={pieData}
             options={{
