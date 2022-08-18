@@ -6,11 +6,8 @@ import DDSContentGroupCopy from '@carbon/ibmdotcom-web-components/es/components-
 const ComponentRenderer = dynamic(import('./ComponentRenderer'), { ssr: false })
 const CardLinkCTA = dynamic(import('./CardLinkCTA'), { ssr: false });
 
-export default function ContentBlock(content) {  
+export default function ContentGroup(content) {  
 	const { heading, copy, children, cta } = content?.fields || {};
-
-	console.log('group', content)
-
   return (
 		<DDSContentGroup>
 			<DDSContentGroupHeading>{heading}</DDSContentGroupHeading>
