@@ -13,6 +13,9 @@ const Leadspace = dynamic(import('./Leadspace'), { ssr: false })
 const TableOfContents = dynamic(import('./TableOfContents'), { ssr: false })
 const CardSectionCarousel = dynamic(import('./CardSectionCarousel'), {ssr: false});
 const CardSection = dynamic(import('./CardSection'), {ssr: false});
+const PieChart = dynamic(import("./PieChart"), {
+  ssr: false,
+});
 
 
 const map = {
@@ -28,30 +31,29 @@ const map = {
 	'dds-card-section-carousel': CardSectionCarousel,
 	'dds-background-media': BackgroundMedia,
 	'dds-leadspace': Leadspace,
-	'dds-table-of-contents': TableOfContents
+	'dds-table-of-contents': TableOfContents,
+	pieChart: PieChart,
 }
 
-
 export default function ComponentRenderer(content) {
+  const { components } = content || {};
 
-	const { components } = content || {};
+  let componentList = components || content.content;
 
-	let componentList = components || content.content;
+  if (!Array.isArray(componentList)) componentList = [componentList];
 
-	if(!Array.isArray(componentList)) componentList = [componentList]
+  return (
+    <>
+      {componentList?.map((component) => {
+        const { id } = component.sys.contentType.sys;
+        let ComponentName = map[id];
 
-	return (
-		<>
-		{componentList?.map(component => {
-			const { id } = component.sys.contentType.sys;
+        if (!ComponentName) {
+          return <></>;
+        }
 
-			let ComponentName = map[id];
-			if(!ComponentName) {
-				console.log('RIP', id)
-				return
-			} 
-			return <ComponentName key={component.sys.id} {...component}/>
-		})}
-		</>
-  )
+        return <ComponentName key={component.sys.id} {...component} />;
+      })}
+    </>
+  );
 }
