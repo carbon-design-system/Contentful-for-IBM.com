@@ -16,6 +16,7 @@ const BackgroundMedia = dynamic(import('./BackgroundMedia'), { ssr: false });
 export default function Leadspace(content) {
 	const { size, buttonGroup, leadspaceImage, heading, copy, backgroundVideo } = content.fields || {};
 	const { defaultSrc, imageItems, altText } = leadspaceImage.fields;
+	const { url } = defaultSrc?.fields?.file || {};
 	const { videoId } = backgroundVideo?.fields || {};
 
 	if(backgroundVideo) {
@@ -40,7 +41,7 @@ export default function Leadspace(content) {
       </DDSButtonGroup>
 			
 			{leadspaceImage && !videoId && 
-				<DDSLeadspaceImage slot="image" default-src={defaultSrc} className="bx--image" alt={altText}>
+				<DDSLeadspaceImage slot="image" default-src={'https://' + url} className="bx--image" alt={altText}>
           {imageItems && imageItems.map(image => {
 						const {minWidth} = image.fields;
 						const {url} = image.fields.image.fields.file;

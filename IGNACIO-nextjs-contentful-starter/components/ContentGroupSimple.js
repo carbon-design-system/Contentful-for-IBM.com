@@ -16,7 +16,7 @@ export default function ContentGroupSimple(content) {
 			<DDSContentGroupHeading>{heading}</DDSContentGroupHeading>
 			<DDSContentGroupCopy>{copy}</DDSContentGroupCopy>
 			{!videoId && <DDSImage slot='media' defaultSrc={'https:' + defaultSrc} heading={caption}>
-				{imageItems.map(image => {
+				{imageItems?.map(image => {
 					const {minWidth} = image.fields;
 					const {url} = image.fields.image.fields.file;
 
@@ -30,7 +30,7 @@ export default function ContentGroupSimple(content) {
 			{children?.map(child => {
 					return <ComponentRenderer content={child}/>
 				})}
-				
+
 			{cta && <CardLinkCTA {...cta}/>}
     </DDSContentGroupSimple>
   );

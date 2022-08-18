@@ -164,10 +164,10 @@
   dependencies:
     "@carbon/layout" "^11.5.0"
 
-"@carbon/ibmdotcom-services@1.37.0-canary.2827990371.0+320b30a":
-  version "1.37.0-canary.2827990371.0"
-  resolved "https://registry.yarnpkg.com/@carbon/ibmdotcom-services/-/ibmdotcom-services-1.37.0-canary.2827990371.0.tgz#cea925294056e0c54802270d197831844cea4a64"
-  integrity sha512-pju94vAqGZXMlbcSZGbP+yAl0CVAB2AstPfNryHpsr7D5iTU0z+8BQ+w1qljUfE9FOFRTKgFKDClO+WloH62Hw==
+"@carbon/ibmdotcom-services@1.38.0-canary.2876567565.0+cd9cf1f":
+  version "1.38.0-canary.2876567565.0"
+  resolved "https://registry.yarnpkg.com/@carbon/ibmdotcom-services/-/ibmdotcom-services-1.38.0-canary.2876567565.0.tgz#57c831f5c158d715a2240d51c70ccd8250f182ac"
+  integrity sha512-8U2h77HxbJIztVxuX3ZBN3rAXwHR3uGI4hCj8jravrI6SJn9OpbF0PUhx54HezH0iwrfmEWhbyu3Q5bPUcY/sQ==
   dependencies:
     "@babel/runtime" "^7.5.0"
     "@carbon/ibmdotcom-utilities" "1.38.0-canary.2876567565.0+cd9cf1f"
@@ -273,12 +273,7 @@
   resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-10.29.0.tgz#1e78c70d396ad3b9363f7a0c7e36ce9bac3d5702"
   integrity sha512-b8Cc9vgMlkQfLQAwq9Zt1/UfsrtGcWQpf0kK5gCamAuSmNSFWYJSwqbY9MeodxM2xNfXrxFcEFwqwy/E7egxUw==
 
-"@carbon/motion@^11.0.0":
-  version "11.3.0"
-  resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-11.3.0.tgz#c71f181bc99bdab64ccefd189afa509e6bb90930"
-  integrity sha512-uhseTXlSXBH7FA2euriLYrFcKZqx65raXyVN0F1XIiw3dDfTOwdXGLdg8nPQB3sGVefTinEvGxqwc6dwinbsNA==
-
-"@carbon/motion@^11.3.0":
+"@carbon/motion@^11.0.0", "@carbon/motion@^11.3.0":
   version "11.3.0"
   resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-11.3.0.tgz#c71f181bc99bdab64ccefd189afa509e6bb90930"
   integrity sha512-uhseTXlSXBH7FA2euriLYrFcKZqx65raXyVN0F1XIiw3dDfTOwdXGLdg8nPQB3sGVefTinEvGxqwc6dwinbsNA==

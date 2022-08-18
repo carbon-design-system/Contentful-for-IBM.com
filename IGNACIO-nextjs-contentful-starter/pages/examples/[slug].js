@@ -7,7 +7,7 @@ const Card = dynamic(import('../../components/Card'), { ssr: false })
 const ComponentRenderer = dynamic(import('../../components/ComponentRenderer'), { ssr: false })
 
 
-export default function Recipes(props) {
+export default function Pages(props) {
 
   const { body } = props.page?.fields;
 

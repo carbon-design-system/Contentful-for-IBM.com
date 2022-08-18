@@ -24,5 +24,5 @@ export default async function handler(req, res) {
 	console.log(pageFields)
 
   res.setPreviewData({})
-  res.redirect(`/recipes/${pageFields.slug}`)
+  res.redirect(`/examples/${pageFields.slug}`)
 }
