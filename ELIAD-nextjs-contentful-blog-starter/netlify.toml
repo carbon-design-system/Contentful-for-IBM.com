@@ -1,3 +1,0 @@
-[template.environment]
-  CONTENTFUL_SPACE_ID = "Set this to your Contentful space ID"
-  CONTENTFUL_ACCESS_TOKEN = "Set this to your Contentful access token"
