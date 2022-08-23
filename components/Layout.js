@@ -2,6 +2,9 @@ import dynamic from 'next/dynamic';
 const DDSDotcomShellContainer = dynamic(import('@carbon/ibmdotcom-web-components/es/components-react/dotcom-shell/dotcom-shell-container.js'), { ssr: false });
 
 export default function Layout({ children }) {
+
+  const { rtl } = children.props.page.fields;
+
   return (
     <div>
       <header>
@@ -17,7 +20,7 @@ export default function Layout({ children }) {
         <meta name="robots" content="index,follow" />
         <script src="//1.www.s81c.com/common/stats/ibm-common.js" defer></script>
         
-        {process.env.ENABLE_RTL === "true" && (
+        {rtl && (
             <script
               dangerouslySetInnerHTML={{
                 __html: `
