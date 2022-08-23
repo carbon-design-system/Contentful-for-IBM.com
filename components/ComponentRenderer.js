@@ -17,6 +17,9 @@ const PieChart = dynamic(import("./PieChart"), {
   ssr: false,
 });
 
+import exploreMore from "../data/exploreMore.json";
+
+
 
 const map = {
 	"dds-content-block": ContentBlock,
@@ -47,6 +50,19 @@ export default function ComponentRenderer(content) {
       {componentList?.map((component) => {
         const { id } = component.sys.contentType.sys;
         let ComponentName = map[id];
+
+        if(id == 'mastheadCustomization') {
+          const masthead = document.querySelector('dds-masthead-composite')
+          const { mastheadLinks } = component.fields;
+
+          const navLinks = []
+
+          mastheadLinks.map(link => {
+            navLinks.push(link.fields)
+          })
+          navLinks.push(exploreMore)
+          masthead.navLinks = navLinks;
+        }
 
         if (!ComponentName) {
           return <></>;

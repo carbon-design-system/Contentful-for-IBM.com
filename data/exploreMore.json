@@ -1,0 +1,188 @@
+{
+	"title":"Explore more",
+	"titleEnglish":"Explore more",
+	"url":"",
+	"hasMenu":true,
+	"hasMegapanel":true,
+	"menuSections":[
+		 {
+				"heading":"",
+				"menuItems":[
+					 {
+							"title":"Partners",
+							"titleEnglish":"Partners",
+							"url":"https://www.ibm.com/partnerworld/public?lnk=hpmex_bupa&lnk2=link",
+							"megapanelContent":{
+								 "headingTitle":"Partners",
+								 "headingUrl":"https://www.ibm.com/partnerworld/public?lnk=hpmex_bupa",
+								 "description":"",
+								 "quickLinks":{
+										"title":"",
+										"links":[
+											 {
+													"title":"Partner with us (PartnerWorld)",
+													"titleEnglish":"Partner with us (PartnerWorld)",
+													"url":"https://www.ibm.com/partnerworld/public?lnk=hpmex_bupa&lnk2=learn"
+											 },
+											 {
+													"title":"Our strategic partnerships",
+													"titleEnglish":"Our strategic partnerships",
+													"url":"https://www.ibm.com/alliances?lnk=hpmex_bupa&lnk2=learn"
+											 },
+											 {
+													"title":"Payment plans for IBM Partners",
+													"titleEnglish":"Payment plans for IBM Partners",
+													"url":"https://www.ibm.com/partnerworld/financing?lnk=hpmex_bupa&lnk2=learn"
+											 }
+										]
+								 },
+								 "feature":{
+										"heading":"",
+										"imageUrl":"https://1.dam.s81c.com/m/4075a8633a1137d/original/megamenu-pictogram-partners.png",
+										"linkTitle":"",
+										"linkUrl":""
+								 }
+							}
+					 },
+					 {
+							"title":"IBM Research",
+							"titleEnglish":"IBM Research",
+							"url":"https://www.research.ibm.com/?lnk=hpmex_bure&lnk2=link",
+							"megapanelContent":{
+								 "headingTitle":"IBM Research",
+								 "headingUrl":"https://www.research.ibm.com/?lnk=hpmex_bure",
+								 "description":"",
+								 "quickLinks":{
+										"title":"",
+										"links":[
+											 {
+													"title":"Research areas",
+													"titleEnglish":"Research areas",
+													"url":"https://www.research.ibm.com/?lnk=hpmex_bure&lnk2=learn"
+											 },
+											 {
+													"title":"Researcher directory",
+													"titleEnglish":"Researcher directory",
+													"url":"https://researcher.watson.ibm.com/researcher/people.php?lnk=hpmex_bure&lnk2=learn"
+											 },
+											 {
+													"title":"Patents",
+													"titleEnglish":"Patents",
+													"url":"https://www.research.ibm.com/patents/?lnk=hpmex_bure&lnk2=learn"
+											 },
+											 {
+													"title":"Work with us",
+													"titleEnglish":"Work with us",
+													"url":"https://www.research.ibm.com/frontiers/?lnk=hpmex_bure&lnk2=learn"
+											 }
+										]
+								 },
+								 "feature":{
+										"heading":"",
+										"imageUrl":"https://1.dam.s81c.com/m/5e05b0b234bc3846/original/megamenu-pictogram-ibm-research.png",
+										"linkTitle":"",
+										"linkUrl":""
+								 }
+							}
+					 },
+					 {
+							"title":"About IBM",
+							"titleEnglish":"About IBM",
+							"url":"https://www.ibm.com/about?lnk=hpmex_buab",
+							"megapanelContent":{
+								 "headingTitle":"About IBM",
+								 "headingUrl":"https://www.ibm.com/about?lnk=hpmex_buab",
+								 "description":"",
+								 "quickLinks":{
+										"title":"",
+										"links":[
+											 {
+													"title":"Annual report",
+													"titleEnglish":"Annual report",
+													"url":"https://www.ibm.com/annualreport/?lnk=hpmex_buab&lnk2=learn"
+											 },
+											 {
+													"title":"Career opportunities",
+													"titleEnglish":"Career opportunities",
+													"url":"https://www.ibm.com/employment/?lnk=hpmex_buab&lnk2=learn"
+											 },
+											 {
+													"title":"Corporate social responsibility",
+													"titleEnglish":"Corporate social responsibility",
+													"url":"https://www.IBM.org?lnk=hpmex_buab&lnk2=learn"
+											 },
+											 {
+													"title":"Diversity & inclusion",
+													"titleEnglish":"Diversity & inclusion",
+													"url":"https://www.ibm.com/employment/inclusion/?lnk=hpmex_buab&lnk2=learn"
+											 },
+											 {
+													"title":"Investor relations",
+													"titleEnglish":"Investor relations",
+													"url":"https://www.ibm.com/investor/?lnk=hpmex_buab&lnk2=learn"
+											 },
+											 {
+													"title":"News & announcements",
+													"titleEnglish":"News & announcements",
+													"url":"http://newsroom.ibm.com?lnk=hpmex_buab&lnk2=learn"
+											 },
+											 {
+													"title":"Thought leadership",
+													"titleEnglish":"Thought leadership",
+													"url":"https://www.ibm.com/thought-leadership/?lnk=hpmex_buab&lnk2=learn"
+											 },
+											 {
+													"title":"Security, privacy & trust",
+													"titleEnglish":"Security, privacy & trust",
+													"url":"https://www.ibm.com/trust?lnk=hpmex_buab&lnk2=learn"
+											 }
+										]
+								 },
+								 "feature":{
+										"heading":"",
+										"imageUrl":"https://1.dam.s81c.com/m/220eb8ea8345a4d6/original/megamenu-pictogram-about-ibm.png",
+										"linkTitle":"",
+										"linkUrl":""
+								 }
+							}
+					 },
+					 {
+							"title":"COVID-19",
+							"titleEnglish":"COVID-19",
+							"url":"https://www.ibm.com/impact/covid-19?lnk=hpmex_buco&lnk2=link",
+							"megapanelContent":{
+								 "headingTitle":"COVID-19",
+								 "headingUrl":"https://www.ibm.com/impact/covid-19?lnk=hpmex_buco",
+								 "description":"",
+								 "quickLinks":{
+										"title":"",
+										"links":[
+											 {
+													"title":"Business solutions",
+													"titleEnglish":"Business solutions",
+													"url":"https://www.ibm.com/impact/covid-19/business-solutions?lnk=hpmex_buco&lnk2=learn"
+											 },
+											 {
+													"title":"Action guide",
+													"titleEnglish":"Action guide",
+													"url":"https://www.ibm.com/thought-leadership/institute-business-value/report/covid-19-action-guide?lnk=hpmex_buco&lnk2=learn"
+											 },
+											 {
+													"title":"News",
+													"titleEnglish":"News",
+													"url":"https://newsroom.ibm.com/COVID-19?lnk=hpmex_buco&lnk2=learn"
+											 }
+										]
+								 },
+								 "feature":{
+										"heading":"",
+										"imageUrl":"",
+										"linkTitle":"",
+										"linkUrl":""
+								 }
+							}
+					 }
+				]
+		 }
+	]
+}
