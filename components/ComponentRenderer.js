@@ -53,12 +53,12 @@ export default function ComponentRenderer(content) {
 
         if(id == 'mastheadCustomization') {
           const masthead = document.querySelector('dds-masthead-composite')
-          const { mastheadLinks } = component.fields;
+          const { mastheadLinks } = component?.fields || {};
 
           const navLinks = []
 
           mastheadLinks.map(link => {
-            navLinks.push(link.fields)
+            navLinks.push(link?.fields)
           })
           navLinks.push(exploreMore)
           masthead.navLinks = navLinks;
