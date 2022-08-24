@@ -16,6 +16,8 @@ const CardSection = dynamic(import('./CardSection'), {ssr: false});
 const PieChart = dynamic(import("./PieChart"), {
   ssr: false,
 });
+const ThemeZone = dynamic(import('./ThemeZone'), {ssr: false});
+
 
 import exploreMore from "../data/exploreMore.json";
 
@@ -36,6 +38,7 @@ const map = {
 	'dds-leadspace': Leadspace,
 	'dds-table-of-contents': TableOfContents,
 	pieChart: PieChart,
+  'themeZone': ThemeZone
 }
 
 export default function ComponentRenderer(content) {
